@@ -22,7 +22,7 @@
                         >;
                 };
 
-                layer_1 {
+                layer_rse {
                         bindings = <
    &trans &kp LBKT    &kp N7    &kp N8    &kp N9    &kp RBKT        &kp K_VOL_DN     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp K_VOL_UP
    &trans &kp SEMI    &kp N4    &kp N5    &kp N6    &kp EQUAL       &kp K_PLAY_PAUSE &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp K_MUTE
@@ -31,7 +31,7 @@
                         >;
                 };
 
-                layer_2 {
+                layer_lwr {
                         bindings = <
    &trans &kp LBRC    &kp AMPS    &kp ASTRK      &kp LPAR    &kp RBRC        &kp K_VOL_DN       &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp K_VOL_UP
    &trans &kp SEMI    &kp DOLLAR  &kp PERCENT    &kp CARET   &kp PLUS        &kp K_PLAY_PAUSE   &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp K_MUTE
