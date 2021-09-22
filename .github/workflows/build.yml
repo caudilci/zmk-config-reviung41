@@ -33,8 +33,6 @@ jobs:
         run: west update
       - name: West Zephyr export
         run: west zephyr-export
-      - name: Configure Zephyr
-        run: source zephyr/zephyr-env.sh
       - name: West Build (REVIUNG41)
         run: west build -s zmk/app -b nice_nano_v2 -- -DSHIELD=reviung41 -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
       - name: REVIUNG41 DTS File
