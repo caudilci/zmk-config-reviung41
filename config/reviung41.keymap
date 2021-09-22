@@ -18,44 +18,20 @@
    &gresc   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT  &kp BSPC
    &kp TAB   &mt LEFT_WIN A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G   &kp M &mt RSHFT N  &mt RCTRL E     &mt RALT I   &kp RIGHT_WIN O    &kp RET
    &kp LCTRL &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
-                        &kp TAB  &lt 1 SPACE &lt 2 RET &lt 3 BSPC &kp DEL
+                        &kp TAB  &lt 3 SPACE &lt 1 RET &lt 2 BSPC &kp DEL
                         >;
                 };
 
                 layer_1 {
-// ----------------------------------------------------------------------------------
-// |    |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |    DEL    |
-// |    |  _  |  +  |  {  |  }  | "|" |   | LFT | DWN |  UP | RGT |  `  |     ~     |
-// |    | ESC | GUI | ALT | CAPS|  "  |   | HOME| END | PGUP| PGDN| PRSC| SHFT(RET) |
-//                       |     |     | RET | ADJ |     |
-                        bindings = <
-   &trans &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp K_UNDO &kp K_MENU &kp K_BACK    &kp K_FORWARD  &kp K_LOCK  &kp K_REDO   
-   &trans &kp MINUS &kp KP_PLUS &kp LBRC &kp RBRC &kp PIPE       &kp K_COPY &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp K_PASTE 
-   &trans &kp ESC   &kp LGUI    &kp LALT &kp CLCK &kp SQT        &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &mt RSHFT RET
-                                 &trans      &trans       &none       &mo 4       &trans
-                        >;
-                };
-
-                layer_2 {
-// -----------------------------------------------------------------------------------------
-// |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
-// |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
-// |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
-//                       |     | ADJ | BKSP |    |     |
                         bindings = <
    &trans &kp LBKT    &kp N7    &kp N8    &kp N9    &kp RBKT        &kp K_VOL_DN &kp LEFT  &kp DOWN &kp UP    &kp RIGHT  &kp K_VOL_UP
    &trans &kp SEMI    &kp N4    &kp N5    &kp N6  &kp EQUAL      &kp K_PLAY_PAUSE &kp LEFT  &kp DOWN &kp UP    &kp RIGHT  &kp K_MUTE
    &trans &kp GRAVE   &kp N1    &kp N2    &kp N3  &kp BSLH      &kp HOME  &kp PG_DN  &kp PG_UP &kp END &kp PSCRN &mt RSHFT RET
-                                &kp DOT      &kp N0       &none        &mo 4     &trans
+                                &kp DOT      &kp N0       &none        &none     &trans
                         >;
                 };
 
-                layer_3 {
-// -----------------------------------------------------------------------------------------
-// |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
-// |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
-// |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
-//                       |     | ADJ | BKSP |    |     |
+                layer_2 {
                         bindings = <
    &trans &kp LBRC    &kp AMPS    &kp ASTRK    &kp LPAR    &kp RBRC        &kp K_VOL_DN &kp LEFT  &kp DOWN &kp UP    &kp RIGHT  &kp K_VOL_UP
    &trans &kp SEMI    &kp DOLLAR    &kp PERCENT    &kp CARET  &kp PLUS      &kp K_PLAY_PAUSE &kp LEFT  &kp DOWN &kp UP    &kp RIGHT  &kp K_MUTE
