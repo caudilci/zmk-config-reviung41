@@ -27,7 +27,7 @@
 
                 default_layer {
                         bindings = <
-   &kp ESC   &kp Q          &kp W      &kp F       &kp P       &kp B   &kp J &kp L        &kp U         &kp Y        &kp SQT            &kp BSPC
+   &kp ESC   &kp Q          &kp W      &kp F       &kp P       &kp B   &kp J &kp L        &lt 2 U         &lt 3 Y        &kp SQT            &kp BSPC
    &mt LSHFT TAB   &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RCTRL E   &hm RALT I   &hm RGUI O       &kp RET
    &kp LCTRL &kp Z          &kp X      &kp C       &kp D       &kp V   &kp K &kp H        &kp COMMA     &kp DOT      &kp FSLH           &mt RSHFT RET
                                        &lt 5 TAB  &lt 4 SPACE &lt 1 RET &lt 2 BSPC &lt 3 DEL
@@ -53,7 +53,7 @@
 
                 sym_layer {
                         bindings = <
-   &trans &kp LBRC    &kp AMPS    &kp ASTRK      &kp LPAR    &kp RBRC        &none        &none        &none        &none        &none        &trans
+   &trans &kp LBRC    &kp AMPS    &kp ASTRK      &kp LPAR    &kp RBRC        &none        &none        &none        &none        &kp BACKSPACE        &trans
    &trans &kp COLON    &kp DOLLAR  &kp PERCENT    &kp CARET   &kp PLUS        &none        &kp RSHFT    &kp RCTRL    &kp RALT     &kp RGUI     &trans
    &trans &kp TILDE   &kp EXCL    &kp AT         &kp HASH    &kp PIPE        &none        &none        &none        &none        &none        &trans
                                 &kp LPAR      &kp RPAR       &kp UNDER       &none    &none
