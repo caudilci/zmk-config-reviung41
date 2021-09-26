@@ -86,4 +86,5 @@
                                        &kp N3  &kp SPACE &kp TAB &lt 2 BSPC &lt 3 DEL
                 >;
         };
-};
+  };
+}
