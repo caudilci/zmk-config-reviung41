@@ -25,7 +25,7 @@
         macros {
               ctr_num_sl: ctr_num_sl {
                 compatible = "zmk,behavior-macro";
-                #binding-cells = <0>
+                #binding-cells = <0>;
                 bindings
                         = <&macro_press &mo 2 &kp LCTRL>
                         , <&macro_pause_for_release>
@@ -104,7 +104,7 @@
    &kp ESC   &kp Q          &kp W      &kp F       &kp P       &kp B     &kp J      &kp L        &kp U         &kp Y        &kp SQT            &kp BSPC
    &kp TAB   &kp A          &kp R      &kp S       &kp T       &kp G     &kp M      &kp N        &kp E         &kp I        &kp O              &kp RET
    &kp LCTRL &kp Z          &kp X      &kp C       &kp D       &kp V     &kp K      &kp H        &kp COMMA     &kp DOT      &kp FSLH           &tog 7
-                                       &ctr_num_sl   &kp SPACE   &kp RET   &kp BSPC   &kp DEL
+                                       &ctr_num_sl   &kp SPACE   &kp DOT   &kp BSPC   &kp DEL
                         >;
                 };
   };
